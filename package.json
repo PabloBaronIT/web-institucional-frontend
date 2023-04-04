@@ -1,0 +1,26 @@
+{
+  "name": "web-institucional",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "botstrap": "^0.20.1",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "leaflet": "^1.9.3",
+    "mapbox-gl": "^2.13.0",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.21"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^2.7.10"
+  }
+}
