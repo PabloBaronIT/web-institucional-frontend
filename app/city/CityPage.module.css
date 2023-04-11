@@ -1,0 +1,26 @@
+.h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.imgCollageContainer {
+  text-align: center;
+}
+
+.collageSacanta {
+  display: inline-block;
+  max-width: 80%;
+}
+
+/* .divContainerHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

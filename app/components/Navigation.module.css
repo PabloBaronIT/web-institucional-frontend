@@ -61,6 +61,24 @@
   display: none;
 }
 
+.submenu {
+  background-color: #0b2447;
+  position: absolute;
+  top: 50px;
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  padding: 0;
+  margin: 0;
+}
+
+.submenu.show {
+  display: block;
+}
+
+.submenu li {
+  text-decoration: none;
+  list-style: none;
+}
+
 @media screen and (max-width: 768px) {
   .navigation {
     display: none;

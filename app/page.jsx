@@ -93,10 +93,6 @@ export default function HomePage() {
           <img src="/mapa-sacanta.png" className={styles.mapSacanta} />
         </div>
         {/* ESTADÍSTICAS */}
-        <h1 className={styles.h1HomePage}>Estadísticas</h1>
-        <div>
-          <h2>Estadísticas de la ciudad</h2>
-        </div>
       </body>
     </>
   );
