@@ -6,7 +6,7 @@ import "../styles/globals.css";
 import { Navigation } from "./components/Navigation";
 
 // funcionan como routes todas las carpetas que tengan
-// el archivo page.jsx en su carpeta, sino no son routes
+// el archivo page.jsx en su carpeta, sino no son routes, son componentes
 
 export default function RootLayout({ children }) {
   return (
