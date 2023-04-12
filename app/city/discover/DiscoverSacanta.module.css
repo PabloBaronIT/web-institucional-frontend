@@ -34,8 +34,19 @@
 }
 
 .spanDescription {
+  /* border: 2px solid #0b2447; */
+  box-shadow: 1px 1px 6px black;
+  border-radius: 5px;
   max-width: 1000px;
   max-height: 1000px;
-  margin-left: 170px;
+  margin-left: 45px;
+  margin-right: 45px;
   text-align: center;
+}
+
+.containerItemList {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
