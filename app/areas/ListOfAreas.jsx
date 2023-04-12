@@ -11,18 +11,21 @@ export default async function ListOfAreas() {
   const areas = await fetchAreas();
 
   return (
-    <div className="img-container">
-      {areas.map((area) => (
-        <article key={area.id} className="img-article">
-          <h2>{area.title}</h2>
-          <img
-            className="img"
-            src={area.description}
-            alt="Descripción de la imagen"
-          />
-          <OficinaVirtualButton title={area.title} />
-        </article>
-      ))}
-    </div>
+    <>
+      <h1>Áreas de la municipalidad de Sacanta</h1>
+      {/* <div className="img-container">
+        {areas.map((area) => (
+          <article key={area.id} className="img-article">
+            <h2>{area.title}</h2>
+            <img
+              className="img"
+              src={area.description}
+              alt="Descripción de la imagen"
+            />
+            <OficinaVirtualButton title={area.title} />
+          </article>
+        ))}
+      </div> */}
+    </>
   );
 }

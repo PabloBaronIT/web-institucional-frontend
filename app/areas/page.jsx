@@ -1,7 +1,7 @@
 import ListOfAreas from "./ListOfAreas";
 import { Navigation } from "../components/Navigation";
 
-export default async function AreasPage({ params }) {
+export default async function AreasPage() {
   return (
     <>
       <Navigation />
