@@ -33,7 +33,7 @@ export default function WeAsGovernmentPage() {
           <br />
           <br />
           <br />
-          <h2>Honorable Consejo Deliberante</h2>
+          <h2 className={styles.h2Title}>Honorable Consejo Deliberante</h2>
           <div className={styles.hcd}>
             <CardAutority
               position="Presidente"

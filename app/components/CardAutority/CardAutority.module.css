@@ -5,6 +5,12 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.h2Title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .containerCard {
   display: flex;
   flex-wrap: wrap;

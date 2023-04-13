@@ -9,7 +9,7 @@ export default function CardAutority({
   return (
     <div className={styles.containerCard}>
       <div className={styles.card}>
-        <h2>{position}</h2>
+        <h2 className={styles.h2Title}>{position}</h2>
         <img src={srcImg} className={styles.imgAutority} />
         <p className={styles.pName}>
           <strong>{nameAutority}</strong>
