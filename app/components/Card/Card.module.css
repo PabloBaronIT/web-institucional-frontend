@@ -25,6 +25,7 @@
 }
 
 .button {
+  border-radius: 30px;
   background-color: #0070f3;
   border: none;
   color: #fff;
