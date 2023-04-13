@@ -1,7 +1,13 @@
+.overflowContainer {
+  overflow: hidden;
+}
+
 .h2Title {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
+  animation-duration: 1.5s;
+  animation-name: slidein;
 }
 
 .organigrama {
@@ -15,6 +21,8 @@
 .secretario {
   text-align: center;
   margin: 10px;
+  animation-duration: 2.5s;
+  animation-name: showSlow;
 }
 
 .arrow {
@@ -25,9 +33,45 @@
   border-right: 1px solid #0b2447;
   border-bottom: 1;
   margin-bottom: -10px;
+  animation-duration: 2.5s;
+  animation-name: showSlow;
 }
 
 .imgAutority {
   max-width: 180px;
   max-height: 180px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 100px;
+}
+
+.pName {
+  font-size: 20px;
+}
+
+.hcd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes showSlow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

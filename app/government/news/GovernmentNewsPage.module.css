@@ -1,37 +1,20 @@
-.containerH2 {
+.overflowContainer {
   overflow: hidden;
 }
 
-.h2 {
+.h2Title {
+  font-size: 19px;
   text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   animation-duration: 1.5s;
   animation-name: slidein;
 }
 
-.imgSacantaToday {
-  display: inline-block;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
-  max-height: 90%;
-  max-width: 90%;
-  animation-duration: 1.5s;
-  animation-name: slidein;
-}
-
-.divImgContainer {
-  text-align: center;
-}
-
-.cardContainerOverflow {
-  overflow: hidden;
-}
-
-.cardContainer {
+.cards {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   animation-duration: 1.5s;
   animation-name: slidein;
 }
@@ -45,5 +28,15 @@
   to {
     margin-left: 0%;
     width: 100%;
+  }
+}
+
+@keyframes showSlow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }

@@ -1,17 +1,23 @@
+.overflowContainer {
+  overflow: hidden;
+}
+
 .h2Title {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  animation-duration: 1.5s;
+  animation-name: slidein;
 }
 
-/* Estilos para la lista desordenada */
 .turisticList {
   list-style: none;
   margin: 0;
   padding: 0;
+  animation-duration: 2.5s;
+  animation-name: showSlow;
 }
 
-/* Estilos para los elementos de lista */
 .turisticPoint {
   display: flex;
   align-items: center;
@@ -19,7 +25,6 @@
   margin-bottom: 20px;
 }
 
-/* Estilos para las imágenes */
 .imgTuristicPoint {
   max-width: 1000px;
   object-fit: cover;
@@ -49,4 +54,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes showSlow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

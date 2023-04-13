@@ -1,8 +1,14 @@
+.overflowContainer {
+  overflow: hidden;
+}
+
 .h2Title {
   font-size: 30px;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  animation-duration: 1.5s;
+  animation-name: slidein;
 }
 
 .imgInterestPoints {
@@ -12,6 +18,8 @@
 
 .containerImg {
   text-align: center;
+  animation-duration: 2.5s;
+  animation-name: showSlow;
 }
 
 /* CONTAINER LIST */
@@ -24,6 +32,8 @@
 
 .list li {
   margin-bottom: 60px;
+  animation-duration: 2.5s;
+  animation-name: showSlow;
 }
 
 .listItem {
@@ -47,4 +57,26 @@
 .imgList {
   display: block;
   margin: 0 auto;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes showSlow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

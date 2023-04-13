@@ -1,7 +1,7 @@
 "use client";
 import styles from "./HomePage.module.css";
 import Link from "next/link";
-import { Navigation } from "./components/Navigation";
+import { Navigation } from "./components/Navigation/Navigation";
 const socialLinks = [
   {
     label: "💬",

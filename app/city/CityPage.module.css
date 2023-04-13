@@ -1,17 +1,27 @@
+.overflowContainer {
+  overflow: hidden;
+}
+
 .h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
+  animation-duration: 1.5s;
+  animation-name: slidein;
 }
 
 .h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
+  animation-duration: 1.8s;
+  animation-name: slidein;
 }
 
 .imgCollageContainer {
   text-align: center;
+  animation-duration: 2.5s;
+  animation-name: showSlow;
 }
 
 .collageSacanta {
@@ -24,3 +34,25 @@
   justify-content: center;
   align-items: center;
 } */
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes showSlow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

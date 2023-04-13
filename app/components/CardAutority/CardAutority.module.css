@@ -1,0 +1,36 @@
+.h2Card {
+  font-size: 19px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.containerCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pName {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  width: 350px;
+  box-sizing: border-box;
+}
+
+.imgAutority {
+  box-shadow: 2px 2px 5px black;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 0 auto;
+  width: 60%;
+}

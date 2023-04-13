@@ -39,7 +39,7 @@ const links = [
         route: "/government/news",
       },
       {
-        label: "¿Quiénes somos",
+        label: "¿Quiénes somos?",
         route: "/government/we",
       },
     ],
