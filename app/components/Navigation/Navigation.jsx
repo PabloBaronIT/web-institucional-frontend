@@ -56,6 +56,7 @@ const links = [
 
 export function Navigation() {
   const [showSubmenu, setShowSubmenu] = useState({});
+  const [showMenu, setShowMenu] = useState(false);
 
   const handleMouseEnter = (route) => {
     setShowSubmenu({ ...showSubmenu, [route]: true });
@@ -63,6 +64,10 @@ export function Navigation() {
 
   const handleMouseLeave = (route) => {
     setShowSubmenu({ ...showSubmenu, [route]: false });
+  };
+
+  const handleMenuClick = () => {
+    setShowMenu(!showMenu);
   };
 
   return (
@@ -81,7 +86,17 @@ export function Navigation() {
                       href="/"
                     />
                   </div>
-                  <ul className={styles.navigation}>
+                  <button
+                    className={styles.menuButton}
+                    onClick={handleMenuClick}
+                  >
+                    {showMenu ? "Cerrar" : "Menú"}
+                  </button>
+                  <ul
+                    className={`${styles.navigation} ${
+                      showMenu ? styles.show : ""
+                    }`}
+                  >
                     {links.map(({ label, route, submenu }) => (
                       <li
                         key={route}
