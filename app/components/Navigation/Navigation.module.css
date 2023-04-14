@@ -65,9 +65,10 @@
   background-color: #0b2447;
   position: absolute;
   top: 50px;
-  width: 200px; /* Ajusta el ancho según tus necesidades */
+  width: 200px;
   padding: 0;
   margin: 0;
+  border-radius: 8px;
 }
 
 .submenu.show {

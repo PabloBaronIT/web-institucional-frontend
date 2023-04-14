@@ -31,6 +31,10 @@ const links = [
     ],
   },
   {
+    label: "Áreas",
+    route: "/areas",
+  },
+  {
     label: "Gobierno",
     route: "/government",
     submenu: [
@@ -47,10 +51,6 @@ const links = [
   {
     label: "Noticias",
     route: "/news",
-  },
-  {
-    label: "Áreas",
-    route: "/areas",
   },
 ];
 
