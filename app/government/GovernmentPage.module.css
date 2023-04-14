@@ -1,0 +1,30 @@
+.bgvideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.container {
+  height: 100vh;
+  position: inherit;
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .bgvideo {
+    height: 100%;
+    width: auto;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .bgvideo {
+    height: auto;
+    width: 100%;
+  }
+}

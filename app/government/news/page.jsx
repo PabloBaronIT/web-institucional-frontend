@@ -12,7 +12,7 @@ export default function GovernmentNewsPage() {
         <div className={styles.cards}>
           <Card
             titleCard="Boleto Adulto Mayor"
-            srcImg="/banner-card3.jpg"
+            srcImg="/banner-card.jpg"
             textButton="Ver programa"
             link="https://www.google.com/"
             description="Los adultos pudieron realizar en Córdoba el BAM"
@@ -26,7 +26,7 @@ export default function GovernmentNewsPage() {
           />
           <Card
             titleCard="COE Sacanta"
-            srcImg="/banner-card.jpg"
+            srcImg="/banner-coe.jpg"
             textButton="Ver programa"
             link="https://www.google.com/"
             description="Novedades del COE Sacanta"

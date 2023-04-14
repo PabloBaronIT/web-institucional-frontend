@@ -12,8 +12,10 @@ export default function CityPage() {
           <h3 className={styles.h3}>
             Bienvenido a la ciudad de Sacanta. Nuestro hogar
           </h3>
-          <div className={styles.imgCollageContainer}>
-            <img src="/collage-sacanta.png" className={styles.collageSacanta} />
+          <div className={styles.container}>
+            <video autoPlay muted loop className={styles.bgvideo}>
+              <source src="/nuestra-ciudad-video.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>

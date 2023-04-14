@@ -1,4 +1,5 @@
 .h2Card {
+  color: rgb(38, 38, 38);
   font-size: 19px;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -6,7 +7,6 @@
 }
 
 .card {
-  border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
   margin-top: 20px;
@@ -14,19 +14,26 @@
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
-  background-color: rgb(204, 222, 255);
-  box-shadow: 1px 1px 2px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 2px;
+  transition: background-color 0.6s ease, transform 0.6s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
 }
 
 .img {
+  border-radius: 2px;
   display: block;
-  margin: 0 auto;
-  width: 100%;
+  margin: 0 0;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .button {
   border-radius: 30px;
-  background-color: #0070f3;
+  background-color: #0b2447;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -34,7 +41,14 @@
   margin: 10px auto 0;
   padding: 10px 20px;
   text-align: center;
-  width: 80%;
+  width: 60%;
+  transition: background-color 0.6s ease, transform 0.6s ease;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 2); /* agrega una sombra */
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: orangered;
 }
 
 .span {
