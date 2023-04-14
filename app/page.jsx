@@ -2,22 +2,30 @@
 import styles from "./HomePage.module.css";
 import Link from "next/link";
 import { Navigation } from "./components/Navigation/Navigation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
+import {
+  faWhatsapp,
+  faFacebookF,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
 const socialLinks = [
   {
-    label: "💬",
+    label: <FontAwesomeIcon icon={faWhatsapp} />,
     route: "http://wa.me/5493533417923",
   },
   {
-    label: "🌐",
+    label: <FontAwesomeIcon icon={faGlobeAmericas} />,
     route: "https://www.sacanta.gob.ar/",
   },
   {
-    label: "🤳🏾",
+    label: <FontAwesomeIcon icon={faFacebookF} />,
     route: "https://www.facebook.com/MuniSacanta/?locale=es_LA",
   },
   {
-    label: "🌎",
-    route: "https://www.sacanta.gob.ar/",
+    label: <FontAwesomeIcon icon={faInstagram} />,
+    route: "https://www.instagram.com/municipalidad_de_sacanta/?hl=es ",
   },
 ];
 
@@ -38,7 +46,9 @@ export default function HomePage() {
           <ul className={styles.navigationSocialMedias}>
             {socialLinks.map(({ label, route }) => (
               <li key={route} className={styles.liNavigSocialMedia}>
-                <Link href={route}>{label}</Link>
+                <Link href={route} target="_blank">
+                  {label}
+                </Link>
               </li>
             ))}
           </ul>
@@ -58,9 +68,7 @@ export default function HomePage() {
               />
             </a>
             <div className={styles.logoDescription}>
-              <h2 className={styles.pContainer}>
-                Nueva Oficina Virtual de Sacanta
-              </h2>
+              <h2 className={styles.pContainer}>Nueva Oficina Virtual</h2>
               <p className={styles.pContainer}>
                 Presentamos la nueva Oficina Virtual de Sacanta. Un lugar online
                 donde usted podrá realizar sus trámites de manera rápida y
