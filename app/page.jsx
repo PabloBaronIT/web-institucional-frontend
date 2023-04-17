@@ -32,7 +32,7 @@ const socialLinks = [
 export default function HomePage() {
   return (
     <>
-      <body className={styles.bodyContainer}>
+      <div className={styles.bodyContainer}>
         <Navigation />
         <br />
         {/* VIDEO CIUDAD */}
@@ -102,7 +102,7 @@ export default function HomePage() {
           <img src="/mapa-sacanta.png" className={styles.mapSacanta} />
         </div>
         {/* ESTADÍSTICAS */}
-      </body>
+      </div>
     </>
   );
 }
