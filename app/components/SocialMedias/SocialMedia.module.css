@@ -1,0 +1,20 @@
+.socialMedia {
+  font-size: 30px;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 32px;
+  color: rgb(0, 0, 87);
+  padding: 10px;
+  padding-left: calc(1rem);
+}
+
+.liNavigSocialMedia:hover {
+  transition: background-color 0.6s;
+  transform: scale(1.2);
+}
+
+.socialMedia li {
+  display: inline-block;
+  margin-right: 20px;
+}

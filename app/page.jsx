@@ -1,33 +1,7 @@
 "use client";
 import styles from "./HomePage.module.css";
-import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
-import {
-  faWhatsapp,
-  faFacebookF,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
 import CoverVideo from "./components/CoverVideo/CoverVideo";
-
-const socialLinks = [
-  {
-    label: <FontAwesomeIcon icon={faWhatsapp} />,
-    route: "http://wa.me/5493533417923",
-  },
-  {
-    label: <FontAwesomeIcon icon={faGlobeAmericas} />,
-    route: "https://www.sacanta.gob.ar/",
-  },
-  {
-    label: <FontAwesomeIcon icon={faFacebookF} />,
-    route: "https://www.facebook.com/MuniSacanta/?locale=es_LA",
-  },
-  {
-    label: <FontAwesomeIcon icon={faInstagram} />,
-    route: "https://www.instagram.com/municipalidad_de_sacanta/?hl=es ",
-  },
-];
+import SocialMedias from "./components/SocialMedias/SocialMedias";
 
 export default function HomePage() {
   return (
@@ -36,17 +10,7 @@ export default function HomePage() {
       {/* VIDEO CIUDAD */}
       <CoverVideo srcVideo="/videoSacanta.mp4" />
       {/* REDES SOCIALES */}
-      <div className={styles.socialMedia}>
-        <ul className={styles.navigationSocialMedias}>
-          {socialLinks.map(({ label, route }) => (
-            <li key={route} className={styles.liNavigSocialMedia}>
-              <Link href={route} target="_blank">
-                {label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <SocialMedias />
       {/* OFICINA VIRTUAL */}
       <div className={styles.oficinaContainer}>
         <h1 className={styles.h1HomePage}>Oficina Virtual</h1>
@@ -90,10 +54,8 @@ export default function HomePage() {
       <br />
       <br />
       {/* MAPA DE LA CIUDAD */}
-      <div>
-        <h1 className={styles.h1HomePage}>Mapa de la ciudad</h1>
-        <img src="/mapa-sacanta.png" className={styles.mapSacanta} />
-      </div>
+      {/* <h1 className={styles.h1HomePage}>Mapa de la ciudad</h1>
+      <img src="/mapa-sacanta.png" className={styles.mapSacanta} /> */}
       {/* ESTADÍSTICAS */}
     </>
   );
