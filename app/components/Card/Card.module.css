@@ -4,6 +4,7 @@
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
 }
 
 .card {
@@ -33,9 +34,9 @@
 
 .button {
   border-radius: 30px;
-  background-color: #0b2447;
+  background-color: #06283d;
   border: none;
-  color: #fff;
+  color: #dff6ff;
   cursor: pointer;
   display: block;
   margin: 10px auto 0;
@@ -48,7 +49,7 @@
 
 .button:hover {
   transform: scale(1.1);
-  background-color: orangered;
+  background-color: #256d85;
 }
 
 .span {

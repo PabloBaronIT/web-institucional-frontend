@@ -1,0 +1,27 @@
+.footerContainer {
+  background-color: #06283d;
+  border-top: 2px solid #dff6ff;
+  display: flex;
+}
+
+.logoImg {
+  height: 85px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.pDivFooter {
+  margin-top: 28px;
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.pContact {
+  margin-top: 28px;
+  margin-right: 20px;
+  color: white;
+  margin-left: auto;
+  text-align: right;
+}

@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   height: 60px;
-  background-color: #0b2447;
+  background-color: #06283d;
   z-index: 999;
 }
 
@@ -31,7 +31,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   justify-content: center;
   gap: 32px;
-  color: rgb(255, 92, 33);
+  color: #47b5ff;
   margin: 0;
   padding: 0;
   padding-left: calc(1rem);
@@ -50,7 +50,7 @@
 }
 
 .navigation a:hover {
-  color: rgb(238, 238, 238);
+  color: #dff6ff;
 }
 
 .navigation a:hover {
@@ -62,7 +62,7 @@
 }
 
 .submenu {
-  background-color: #0b2447;
+  background-color: #06283d;
   position: absolute;
   top: 50px;
   width: 200px;

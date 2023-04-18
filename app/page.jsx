@@ -48,7 +48,7 @@ export default function HomePage() {
         </ul>
       </div>
       {/* OFICINA VIRTUAL */}
-      <div class={styles.oficinaContainer}>
+      <div className={styles.oficinaContainer}>
         <h1 className={styles.h1HomePage}>Oficina Virtual</h1>
         <div className={styles.logoContainer}>
           <a

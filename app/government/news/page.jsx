@@ -32,6 +32,20 @@ export default function GovernmentNewsPage() {
             link="https://www.google.com/"
             description="Novedades del COE Sacanta"
           />
+          <Card
+            titleCard="Bienvenidos concejales"
+            srcImg="/banner-gobernante.jpg"
+            textButton="Ver programa"
+            link="https://www.google.com/"
+            description="Concejales provinciales visitaron nuestro pueblo"
+          />
+          <Card
+            titleCard="Nuestro intendente en la radio"
+            srcImg="/banner-intendente.jpg"
+            textButton="Ver programa"
+            link="https://www.google.com/"
+            description="Daniel habló en la radio sobre futuros proyectos"
+          />
         </div>
       </div>
     </>

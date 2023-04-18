@@ -31,6 +31,24 @@ export default function TodayPage() {
             textButton="Leer más"
             link="https://www.google.com/"
           />
+          <Card
+            titleCard="7° Festival de Locro"
+            srcImg="/banner-locro.jpg"
+            textButton="Leer más"
+            link="https://www.google.com/"
+          />
+          <Card
+            titleCard="¡Asado y Folklore!"
+            srcImg="/banner-festival-asado.jpg"
+            textButton="Leer más"
+            link="https://www.google.com/"
+          />
+          <Card
+            titleCard="Novedades en nuestra plaza"
+            srcImg="/sacanta-banner-plaza.jpg"
+            textButton="Leer más"
+            link="https://www.google.com/"
+          />
         </div>
       </div>
     </>

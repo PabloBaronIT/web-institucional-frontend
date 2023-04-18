@@ -15,8 +15,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   animation-duration: 1.5s;
-  animation-name: slidein;
+  animation-name: showSlow;
 }
 
 @keyframes slidein {
