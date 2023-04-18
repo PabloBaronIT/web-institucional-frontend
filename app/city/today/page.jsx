@@ -5,7 +5,8 @@ import Card from "@/app/components/Card/Card";
 export default function TodayPage() {
   return (
     <>
-      <Navigation />
+      <br />
+      <br />
       <br />
       <div className={styles.containerH2}>
         <h2 className={styles.h2}>La localidad hoy</h2>

@@ -4,7 +4,6 @@ import styles from "./GovernmentPage.module.css";
 export default function GovernmentPage() {
   return (
     <>
-      <Navigation />
       <br />
       <br />
       <br />

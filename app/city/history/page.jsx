@@ -3,7 +3,8 @@ import { Navigation } from "@/app/components/Navigation/Navigation";
 export default function HistoryPage() {
   return (
     <>
-      <Navigation />
+      <br />
+      <br />
       <br />
       <h2>La historia de nuestra ciudad</h2>
     </>

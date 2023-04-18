@@ -5,11 +5,12 @@ import styles from "./WeAsGovernmentPage.module.css";
 export default function WeAsGovernmentPage() {
   return (
     <>
-      <Navigation />
+      <br />
       <br />
       <br />
       <div className={styles.overflowContainer}>
         <h2 className={styles.h2Title}>¿Quiénes somos?</h2>
+        {/* CARDS Y ORGANIGRAMA */}
         <div className={styles.organigrama}>
           <div className={styles.intendente}>
             <CardAutority

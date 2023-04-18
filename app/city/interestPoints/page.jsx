@@ -4,7 +4,8 @@ import styles from "./InterestPointsPage.module.css";
 export default function InterestPointsPage() {
   return (
     <>
-      <Navigation />
+      <br />
+      <br />
       <br />
       <div className={styles.overflowContainer}>
         <h2 className={styles.h2Title}>Mapa Actual</h2>
@@ -12,6 +13,8 @@ export default function InterestPointsPage() {
           <img src="/puntos-interes.png" className={styles.imgInterestPoints} />
         </div>
         {/* PUNTOS DE INTERES */}
+        <br />
+        <br />
         <h2 className={styles.h2Title}>Puntos de interés 📌</h2>
         <div className={styles.containerList}>
           <ul className={styles.list}>

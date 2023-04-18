@@ -6,6 +6,7 @@ export default async function AreasPage() {
     <>
       <Navigation />
       <br />
+      <br />
       <section>
         <ListOfAreas />
       </section>
