@@ -1,19 +1,10 @@
-import { Navigation } from "../components/Navigation/Navigation";
+import CoverVideo from "../components/CoverVideo/CoverVideo";
 import styles from "./GovernmentPage.module.css";
 
 export default function GovernmentPage() {
   return (
     <>
-      <br />
-      <br />
-      <br />
-      <div>
-        <div className={styles.container}>
-          <video autoPlay muted loop className={styles.bgvideo}>
-            <source src="/video-gobierno.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </div>
+      <CoverVideo srcVideo="/video-gobierno.mp4" />
     </>
   );
 }

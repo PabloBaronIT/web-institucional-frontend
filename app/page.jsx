@@ -1,7 +1,6 @@
 "use client";
 import styles from "./HomePage.module.css";
 import Link from "next/link";
-import { Navigation } from "./components/Navigation/Navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -9,6 +8,7 @@ import {
   faFacebookF,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import CoverVideo from "./components/CoverVideo/CoverVideo";
 
 const socialLinks = [
   {
@@ -34,11 +34,7 @@ export default function HomePage() {
     <>
       <br />
       {/* VIDEO CIUDAD */}
-      <div className={styles.container}>
-        <video autoPlay muted loop className={styles.bgvideo}>
-          <source src="/videoSacanta.mp4" type="video/mp4" />
-        </video>
-      </div>
+      <CoverVideo srcVideo="/videoSacanta.mp4" />
       {/* REDES SOCIALES */}
       <div className={styles.socialMedia}>
         <ul className={styles.navigationSocialMedias}>
@@ -66,7 +62,6 @@ export default function HomePage() {
             />
           </a>
           <div className={styles.logoDescription}>
-            <h2 className={styles.pContainer}>Nueva Oficina Virtual</h2>
             <p className={styles.pContainer}>
               Presentamos la nueva Oficina Virtual de Sacanta. Un lugar online
               donde usted podrá realizar sus trámites de manera rápida y

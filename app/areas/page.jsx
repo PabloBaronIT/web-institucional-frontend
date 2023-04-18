@@ -1,11 +1,11 @@
 import ListOfAreas from "./ListOfAreas";
 import { Navigation } from "../components/Navigation/Navigation";
+import CoverVideo from "../components/CoverVideo/CoverVideo";
 
 export default async function AreasPage() {
   return (
     <>
       <Navigation />
-      <br />
       <br />
       <section>
         <ListOfAreas />

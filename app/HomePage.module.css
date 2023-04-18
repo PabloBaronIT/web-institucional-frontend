@@ -40,8 +40,8 @@
   width: 150px;
   height: 150px;
   border-radius: 5px;
-  margin-top: 25px;
-  margin-left: 80px;
+  margin-top: 0px;
+  margin-left: 150px;
   transition: background-color 0.6s ease, transform 0.6s ease;
 }
 
@@ -50,6 +50,7 @@
 }
 
 .logoDescription {
+  margin-top: 15px;
   display: inline-block;
   vertical-align: top;
   width: 70%;
