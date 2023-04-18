@@ -2,9 +2,9 @@
 
 ## Clonar el repositorio 💻
 Viajar hacia la dirección donde se quiere clonar en la consola y una vez allí, escribir ```git clone https://github.com/PabloBaronIT/web-institucional-frontend.git```. Luego entrar en la carpeta y ejecutra el comando ```npm install``` para que se instalen las dependencias. Una vez hecho esto podemos usar los comandos:
-- ```"dev": "next dev"``` para correr el servidor localmente
-- ```"build": "next build"``` para compilar el proyecto
-- ```"start": "next start"``` para correr el proyecto compilado
+- ```"npm run dev"``` para correr el servidor localmente
+- ```"npm run build"``` para compilar el proyecto
+- ```"npm run start"``` para correr el proyecto compilado
 
 
 Abrir [http://localhost:3000](http://localhost:3000) para ver el servidor corriendo localmente.
