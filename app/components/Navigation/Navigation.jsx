@@ -5,11 +5,11 @@ import styles from "./Navigation.module.css";
 
 const links = [
   {
-    label: "Inicio",
+    label: "INICIO",
     route: "/",
   },
   {
-    label: "Ciudad",
+    label: "CIUDAD",
     route: "/city",
     submenu: [
       {
@@ -31,11 +31,11 @@ const links = [
     ],
   },
   {
-    label: "Áreas",
+    label: "ÁREAS",
     route: "/areas",
   },
   {
-    label: "Gobierno",
+    label: "GOBIERNO",
     route: "/government",
     submenu: [
       {
@@ -49,7 +49,7 @@ const links = [
     ],
   },
   {
-    label: "Noticias",
+    label: "NOTICIAS",
     route: "/news",
   },
 ];
