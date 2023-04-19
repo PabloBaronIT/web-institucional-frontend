@@ -1,5 +1,5 @@
-import { Navigation } from "@/app/components/Navigation/Navigation";
 import styles from "./InterestPointsPage.module.css";
+import CardInterestPoints from "@/app/components/CardInterestPoints/CardInterestPoints";
 
 export default function InterestPointsPage() {
   return (
@@ -15,60 +15,62 @@ export default function InterestPointsPage() {
         {/* PUNTOS DE INTERES */}
         <br />
         <br />
-        <h2 className={styles.h2Title}>Puntos de interés 📌</h2>
         <div className={styles.containerList}>
-          <ul className={styles.list}>
-            <li className={styles.listItem}>
-              Plaza San Martín
-              <br />
-              <img src="/plaza-sacanta.png" className={styles.imgList} />
-            </li>
-            <li className={styles.listItem}>
-              Rally Autos Antiguos
-              <br />
-              <img src="/sacanta-rally.jpg" className={styles.imgList} />
-            </li>
-            <li className={styles.listItem}>
-              Barrica
-              <br />
-              <img src="/barrica-sacanta.jpg" className={styles.imgList} />
-            </li>
-            <li className={styles.listItem}>
-              Vacunación COVID-19
-              <br />
-              <img src="/sacanta-covid.png" className={styles.imgList} />
-            </li>
-            <li className={styles.listItem}>
-              Bomberos Voluntarios
-              <br />
-              <img src="/bomberos-sacanta.jpg" className={styles.imgList} />
-            </li>
-            <li className={styles.listItem}>
-              Hotel Matosa
-              <br />
-              <img src="/sacanta-comedor.jpg" className={styles.imgList} />
-            </li>
-            <li className={styles.listItem}>
-              La Lagunita
-              <br />
-              <img src="/lagunita-sacanta" className={styles.imgList} />
-            </li>
-            <li className={styles.listItem}>
-              Estación Shell
-              <br />
-              <img src="/shell.jpg" className={styles.imgList} />
-            </li>
-            <li className={styles.listItem}>
-              Club de Cazadores
-              <br />
-              <img src="/club-cazadores" className={styles.imgList} />
-            </li>
-            <li className={styles.listItem}>
-              Sportivo Sacanta
-              <br />
-              <img src="/club-sacanta.png" className={styles.imgList} />
-            </li>
-          </ul>
+          <div className={styles.divRestaurants}>
+            <h2 className={styles.h2Title}>Bares y comedores</h2>
+            <CardInterestPoints
+              titleCard="Comedor La Estación"
+              srcImg="/comedor-la-estacion.jpg"
+              textButton="Como ir"
+              link="https://www.google.com/"
+            />
+            <CardInterestPoints
+              titleCard="Comedor Barrica"
+              srcImg="/comedor-barrica.jpg"
+              textButton="Como ir"
+              link="https://www.google.com/"
+            />
+            <CardInterestPoints
+              titleCard="Bar Comedor Matoza"
+              srcImg="/bar-comedor-matoza.jpg"
+              textButton="Como ir"
+              link="https://www.google.com/"
+            />
+            <CardInterestPoints
+              titleCard="Comedor Facultad"
+              srcImg="/facultad-sacanta.jpg"
+              textButton="Como ir"
+              link="https://www.google.com/"
+            />
+          </div>
+          <br />
+          <div className={styles.divActividades}>
+            <h2 className={styles.h2Title}>Puntos turísticos</h2>
+            <CardInterestPoints
+              titleCard="Museo de Sacanta"
+              srcImg="/museo.png"
+              textButton="Como ir"
+              link="https://www.google.com/"
+            />
+            <CardInterestPoints
+              titleCard="Iglesia San Miguel Arcángel"
+              srcImg="/iglesia-sacanta.jpg"
+              textButton="Como ir"
+              link="https://www.google.com/"
+            />
+            <CardInterestPoints
+              titleCard="Plaza del pueblo"
+              srcImg="/plaza.jpg"
+              textButton="Como ir"
+              link="https://www.google.com/"
+            />
+            <CardInterestPoints
+              titleCard="Festival del locro"
+              srcImg="/actividad-locro.jpg"
+              textButton="Como ir"
+              link="https://www.google.com/"
+            />
+          </div>
         </div>
       </div>
     </>

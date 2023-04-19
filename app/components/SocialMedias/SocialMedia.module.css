@@ -1,20 +1,44 @@
+.containerOverflow {
+  overflow: hidden;
+}
+
 .socialMedia {
   font-size: 30px;
   display: flex;
   list-style: none;
   justify-content: flex-end;
   gap: 32px;
-  color: rgb(0, 0, 87);
-  padding: 10px;
+  color: #e0f6ff;
   padding-left: calc(1rem);
+  padding: 20px;
+  animation-name: slidein;
+  animation-duration: 1.5s;
 }
 
 .liNavigSocialMedia:hover {
-  transition: background-color 0.6s;
   transform: scale(1.2);
+}
+
+.socialMedia ul {
+  background-color: #01233a;
+  padding: 5px;
+  padding-left: 24px;
+  border-radius: 15px;
 }
 
 .socialMedia li {
   display: inline-block;
   margin-right: 20px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

@@ -9,8 +9,6 @@ export default function HomePage() {
       <br />
       {/* VIDEO CIUDAD */}
       <CoverVideo srcVideo="/videoSacanta.mp4" />
-      {/* REDES SOCIALES */}
-      <SocialMedias />
       {/* OFICINA VIRTUAL */}
       <div className={styles.oficinaContainer}>
         <h1 className={styles.h1HomePage}>Oficina Virtual</h1>

@@ -1,7 +1,11 @@
 import styles from "./SocialMedia.module.css";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGlobeAmericas,
+  faPhone,
+  faEnvelopeCircleCheck,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faWhatsapp,
   faFacebookF,
@@ -24,20 +28,30 @@ const socialLinks = [
     label: <FontAwesomeIcon icon={faInstagram} />,
     route: "https://www.instagram.com/municipalidad_de_sacanta/?hl=es ",
   },
+  {
+    label: <FontAwesomeIcon icon={faPhone} />,
+    route: "tel:03533492222",
+  },
+  {
+    label: <FontAwesomeIcon icon={faEnvelopeCircleCheck} />,
+    route: "mailto:contacto@sacanta.gob.ar",
+  },
 ];
 
 export default function SocialMedias() {
   return (
-    <div className={styles.socialMedia}>
-      <ul className={styles.navigationSocialMedias}>
-        {socialLinks.map(({ label, route }) => (
-          <li key={route} className={styles.liNavigSocialMedia}>
-            <Link href={route} target="_blank">
-              {label}
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <div className={styles.containerOverflow}>
+      <div className={styles.socialMedia}>
+        <ul className={styles.navigationSocialMedias}>
+          {socialLinks.map(({ label, route }) => (
+            <li key={route} className={styles.liNavigSocialMedia}>
+              <Link href={route} target="_blank">
+                {label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

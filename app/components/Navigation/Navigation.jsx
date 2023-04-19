@@ -90,7 +90,7 @@ export function Navigation() {
                     className={styles.menuButton}
                     onClick={handleMenuClick}
                   >
-                    {showMenu ? "Cerrar" : "Menú"}
+                    {showMenu ? "Close" : "Menu"}
                   </button>
                   <ul
                     className={`${styles.navigation} ${

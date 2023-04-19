@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const withFonts = require("next-fonts");
+
+module.exports = withFonts({
   experimental: {
     appDir: true,
   },
   reactStrictMode: true,
-};
-
-module.exports = nextConfig;
+});

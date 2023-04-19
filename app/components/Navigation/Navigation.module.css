@@ -51,9 +51,6 @@
 
 .navigation a:hover {
   color: #dff6ff;
-}
-
-.navigation a:hover {
   transform: scale(1.1);
 }
 

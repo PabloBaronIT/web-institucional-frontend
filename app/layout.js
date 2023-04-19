@@ -8,8 +8,6 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faFontAwesome } from "@fortawesome/free-brands-svg-icons";
 import Footer from "./components/Footer/Footer";
-import styles from "./components/Footer/Footer.module.css";
-
 library.add(fas, faTwitter, faFontAwesome);
 
 // funcionan como routes todas las carpetas que tengan

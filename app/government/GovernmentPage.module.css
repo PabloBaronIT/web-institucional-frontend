@@ -10,6 +10,11 @@
   border: none;
 }
 
+.h1Title {
+  text-align: center;
+  margin-top: -90px;
+}
+
 .container {
   height: 100vh;
   position: inherit;

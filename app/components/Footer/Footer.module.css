@@ -1,6 +1,6 @@
 .footerContainer {
   background-color: #06283d;
-  border-top: 2px solid #dff6ff;
+  border-top: 2px solid #e0f6ff;
   display: flex;
   margin-top: auto;
 }
@@ -14,7 +14,7 @@
 .pDivFooter {
   margin-top: 28px;
   margin-left: 20px;
-  color: white;
+  color: #e0f6ff;
   text-align: center;
   display: inline-block;
 }
@@ -26,3 +26,29 @@
   margin-left: auto;
   text-align: right;
 }
+
+/* REDES SOCIALES */
+.socialMedia {
+  font-size: 26px;
+  display: flex;
+  color: #e0f6ff;
+  margin-left: auto;
+  padding: 7px;
+}
+
+.liNavigSocialMedia:hover {
+  transform: scale(1.2);
+}
+
+.socialMedia li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.pSocialMedia {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+/* REDES SOCIALES */
