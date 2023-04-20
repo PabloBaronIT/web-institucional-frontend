@@ -5,8 +5,10 @@
 .h2Title {
   font-size: 30px;
   text-align: center;
+  color: #01233a;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 3px #01233a;
   animation-duration: 1.5s;
   animation-name: slidein;
 }

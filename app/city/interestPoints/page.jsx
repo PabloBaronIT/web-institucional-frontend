@@ -8,7 +8,7 @@ export default function InterestPointsPage() {
       <br />
       <br />
       <div className={styles.overflowContainer}>
-        <h2 className={styles.h2Title}>Mapa Actual</h2>
+        <h2 className={styles.h2Title}>MAPA ACTUAL</h2>
         <div className={styles.containerImg}>
           <img src="/puntos-interes.png" className={styles.imgInterestPoints} />
         </div>
@@ -17,7 +17,7 @@ export default function InterestPointsPage() {
         <br />
         <div className={styles.containerList}>
           <div className={styles.divRestaurants}>
-            <h2 className={styles.h2Title}>Bares y comedores</h2>
+            <h2 className={styles.h2Title}>BARES Y COMEDORES</h2>
             <CardInterestPoints
               titleCard="Comedor La Estación"
               srcImg="/comedor-la-estacion.jpg"
@@ -45,7 +45,7 @@ export default function InterestPointsPage() {
           </div>
           <br />
           <div className={styles.divActividades}>
-            <h2 className={styles.h2Title}>Puntos turísticos</h2>
+            <h2 className={styles.h2Title}>PUNTOS TURÍSTICOS</h2>
             <CardInterestPoints
               titleCard="Museo de Sacanta"
               srcImg="/museo.png"

@@ -1,10 +1,19 @@
+.overflowContainer {
+  overflow: hidden;
+}
+
 .h2Title {
+  color: #01233a;
   text-align: center;
+  text-shadow: 1px 1px 3px #01233a;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  animation-name: slidein;
+  animation-duration: 1.5s;
 }
 
 .h3Year {
+  color: #01233a;
   text-align: center;
   font-size: 17px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -14,15 +23,19 @@
 }
 
 .cardContainer {
+  background-color: #e0f6ff;
   margin-top: 40px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  animation-name: showSlow;
+  animation-duration: 1.8s;
 }
 
 .h1Year {
+  color: #01233a;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -30,6 +43,7 @@
 }
 
 .yearDescription {
+  color: #01233a;
   font-size: 18px;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -38,5 +52,28 @@
 }
 
 .infoHistory {
+  color: #01233a;
   display: block;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes showSlow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

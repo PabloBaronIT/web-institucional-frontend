@@ -9,7 +9,7 @@ export default function TodayPage() {
       <br />
       <br />
       <div className={styles.containerH2}>
-        <h2 className={styles.h2}>La localidad hoy</h2>
+        <h2 className={styles.h2}>LA LOCALIDAD HOY</h2>
       </div>
       <div className={styles.cardContainerOverflow}>
         <div className={styles.cardContainer}>

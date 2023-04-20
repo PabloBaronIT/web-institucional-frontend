@@ -9,7 +9,7 @@ export default function GovernmentNewsPage() {
       <br />
       <br />
       <div className={styles.overflowContainer}>
-        <h2 className={styles.h2Title}>Lo último en acción</h2>
+        <h2 className={styles.h2Title}>LO ÚLTIMO EN ACCIÓN</h2>
         <div className={styles.cards}>
           <Card
             titleCard="Boleto Adulto Mayor"

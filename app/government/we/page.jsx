@@ -9,7 +9,7 @@ export default function WeAsGovernmentPage() {
       <br />
       <br />
       <div className={styles.overflowContainer}>
-        <h2 className={styles.h2Title}>¿Quiénes somos?</h2>
+        <h2 className={styles.h2Title}>¿QUIÉNES SOMOS?</h2>
         {/* CARDS Y ORGANIGRAMA */}
         <div className={styles.organigrama}>
           <div className={styles.intendente}>

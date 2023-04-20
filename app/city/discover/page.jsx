@@ -8,7 +8,7 @@ export default function DiscoverSacanta() {
       <br />
       <br />
       <div className={styles.overflowContainer}>
-        <h2 className={styles.h2Title}>Descubrí Sacanta</h2>
+        <h2 className={styles.h2Title}>DESCUBRÍ SACANTA</h2>
       </div>
       {/* PUNTOS TURISTICOS */}
       <div className={styles.overflowContainer}>
