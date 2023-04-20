@@ -17,7 +17,7 @@ export default function HistoryPage() {
               imgDescription="Sacanta en el mapa"
             />
             <div className={styles.infoHistory}>
-              <h1 className={styles.h1Year}>- 1869 -</h1>
+              <h1 className={styles.h1Year}>- 1908 -</h1>
               <h3 className={styles.h3Year}>
                 FUNDACIÓN DE SACANTA Y SU PRIMERA IGLESIA
               </h3>
