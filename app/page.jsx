@@ -11,7 +11,7 @@ export default function HomePage() {
       <CoverVideo srcVideo="/videoSacanta.mp4" />
       {/* OFICINA VIRTUAL */}
       <div className={styles.oficinaContainer}>
-        <h1 className={styles.h1HomePage}>Oficina Virtual</h1>
+        <h1 className={styles.h1HomePage}>OFICINA VIRTUAL</h1>
         <div className={styles.logoContainer}>
           <a
             href="https://pablobaronit.github.io/frontend-oficina-virtual/#/login"
@@ -42,7 +42,7 @@ export default function HomePage() {
       </div>
       <br></br>
       {/* PROGRAMAS MUNICIPALES */}
-      <h1 className={styles.h1HomePage}>Programas municipales</h1>
+      <h1 className={styles.h1HomePage}>PROGRAMAS MUNICIPALES</h1>
       <div className={styles.programasContainer}>
         <img
           src="/programas-municipales-banner.jpg"

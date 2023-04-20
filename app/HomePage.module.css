@@ -40,7 +40,8 @@
   width: 150px;
   height: 150px;
   border-radius: 5px;
-  margin-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 150px;
   transition: background-color 0.6s ease, transform 0.6s ease;
 }
@@ -50,17 +51,22 @@
 }
 
 .logoDescription {
-  margin-top: 15px;
+  margin-top: 25px;
   display: inline-block;
   vertical-align: top;
   width: 70%;
   padding-left: 90px;
 }
 
+.logoContainer {
+  background-color: #e0f6ff;
+}
+
 .h1HomePage {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   color: #0b2447;
+  text-shadow: 1px 1px 3px #01233a;
 }
 
 .pContainer {
