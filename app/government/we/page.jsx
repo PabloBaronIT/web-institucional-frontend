@@ -1,5 +1,5 @@
 import { Navigation } from "@/app/components/Navigation/Navigation";
-import CardAutority from "@/app/components/CardAutority/CardAutority";
+import CardAutority from "@/app/components/AutorityCard/CardAutority";
 import styles from "./WeAsGovernmentPage.module.css";
 
 export default function WeAsGovernmentPage() {
