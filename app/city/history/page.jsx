@@ -34,6 +34,9 @@ export default function HistoryPage() {
               imgDescription="Iglesia San Miguel Arcángel"
             />
           </div>
+          <div className={styles.arrowContainer}>
+            <div className={styles.arrow}></div>
+          </div>
           {/* CARD 2 */}
           <div className={styles.cardContainer}>
             <HistoryCard
@@ -59,6 +62,9 @@ export default function HistoryPage() {
               imgDescription="Estación del ferrocarril por detrás"
             />
           </div>
+          <div className={styles.arrowContainer}>
+            <div className={styles.arrow}></div>
+          </div>
           {/* CARD 3 */}
           <div className={styles.cardContainer}>
             <HistoryCard
@@ -80,6 +86,9 @@ export default function HistoryPage() {
               srcImg="/plaza-circulo-central.jpg"
               imgDescription="Rotonda central de la plaza"
             />
+          </div>
+          <div className={styles.arrowContainer}>
+            <div className={styles.arrow}></div>
           </div>
           {/* CARD 4 */}
           <div className={styles.cardContainer}>
@@ -105,6 +114,9 @@ export default function HistoryPage() {
               srcImg="/escuela-sacanta.jpg"
               imgDescription="Escuela de Sacanta"
             />
+          </div>
+          <div className={styles.arrowContainer}>
+            <div className={styles.arrow}></div>
           </div>
           {/* CARD 5 */}
           <div className={styles.cardContainer}>

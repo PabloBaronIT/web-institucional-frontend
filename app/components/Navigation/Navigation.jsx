@@ -57,6 +57,7 @@ const links = [
 export function Navigation() {
   const [showSubmenu, setShowSubmenu] = useState({});
   const [showMenu, setShowMenu] = useState(false);
+  const [weather, setWeather] = useState(0);
 
   const handleMouseEnter = (route) => {
     setShowSubmenu({ ...showSubmenu, [route]: true });

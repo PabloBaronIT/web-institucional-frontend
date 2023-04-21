@@ -1,7 +1,6 @@
 "use client";
 import styles from "./HomePage.module.css";
 import CoverVideo from "./components/CoverVideo/CoverVideo";
-import SocialMedias from "./components/SocialMedias/SocialMedias";
 
 export default function HomePage() {
   return (
