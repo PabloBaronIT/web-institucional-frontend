@@ -1,7 +1,11 @@
 "use client";
 import styles from "./HomePage.module.css";
 import CoverVideo from "./components/CoverVideo/CoverVideo";
-
+import { Raleway } from "@next/font/google";
+const raleway = Raleway({
+  subsets: ["latin"],
+  weight: ["400", "800"],
+});
 export default function HomePage() {
   return (
     <>

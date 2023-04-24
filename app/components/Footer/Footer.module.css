@@ -1,5 +1,5 @@
 .footerContainer {
-  background-color: #06283d;
+  background-color: #006824;
   border-top: 2px solid #e0f6ff;
   display: flex;
   margin-top: auto;
@@ -14,9 +14,11 @@
 .pDivFooter {
   margin-top: 28px;
   margin-left: 20px;
-  color: #e0f6ff;
+  color: white;
   text-align: center;
   display: inline-block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .pContact {
@@ -31,7 +33,7 @@
 .socialMedia {
   font-size: 26px;
   display: flex;
-  color: #e0f6ff;
+  color: white;
   margin-left: auto;
   padding: 7px;
 }
@@ -50,5 +52,7 @@
   margin-bottom: 10px;
   text-align: center;
   font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 /* REDES SOCIALES */

@@ -8,7 +8,7 @@
   list-style: none;
   justify-content: flex-end;
   gap: 32px;
-  color: #e0f6ff;
+  color: #ffffff;
   padding-left: calc(1rem);
   padding: 20px;
   animation-name: slidein;
@@ -20,7 +20,7 @@
 }
 
 .socialMedia ul {
-  background-color: #01233a;
+  background-color: #028530;
   padding: 5px;
   padding-left: 24px;
   border-radius: 15px;
