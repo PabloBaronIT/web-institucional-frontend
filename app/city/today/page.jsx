@@ -50,6 +50,7 @@ export default function TodayPage() {
             link="https://www.google.com/"
           />
         </div>
+        <br />
       </div>
     </>
   );

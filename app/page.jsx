@@ -2,6 +2,7 @@
 import styles from "./HomePage.module.css";
 import CoverVideo from "./components/CoverVideo/CoverVideo";
 import { Raleway } from "@next/font/google";
+import { ControlledCarousel } from "./components/Carousel/Carousel";
 const raleway = Raleway({
   subsets: ["latin"],
   weight: ["400", "800"],
@@ -56,6 +57,7 @@ export default function HomePage() {
           src="/banner-prog-municipal-locro.jpg"
           className={styles.logoProgramasContainer2}
         />
+        {/* <ControlledCarousel /> */}
       </div>
       <br />
       <br />

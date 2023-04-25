@@ -9,7 +9,7 @@ const links = [
     route: "/",
   },
   {
-    label: "CIUDAD ▿",
+    label: "CIUDAD",
     route: "/city",
     submenu: [
       {
@@ -35,7 +35,7 @@ const links = [
     route: "/areas",
   },
   {
-    label: "GOBIERNO ▿",
+    label: "GOBIERNO",
     route: "/government",
     submenu: [
       {
