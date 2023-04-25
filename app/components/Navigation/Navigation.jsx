@@ -9,7 +9,7 @@ const links = [
     route: "/",
   },
   {
-    label: "CIUDAD",
+    label: "CIUDAD ▿",
     route: "/city",
     submenu: [
       {
@@ -35,7 +35,7 @@ const links = [
     route: "/areas",
   },
   {
-    label: "GOBIERNO",
+    label: "GOBIERNO ▿",
     route: "/government",
     submenu: [
       {
@@ -109,7 +109,12 @@ export function Navigation() {
                           <ul className={styles.submenu}>
                             {submenu.map(({ label, route }) => (
                               <li key={route}>
-                                <Link href={route}>{label}</Link>
+                                <Link
+                                  href={route}
+                                  className={styles.subMenuLink}
+                                >
+                                  {label}
+                                </Link>
                               </li>
                             ))}
                           </ul>

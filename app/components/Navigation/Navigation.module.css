@@ -41,18 +41,29 @@
 .navigation li {
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+.navigation li::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  width: 0;
+  height: 3px;
+  background-color: #f2921ddf;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation li:hover::before {
+  width: calc(100% - 20px);
 }
 
 .navigation a {
-  display: block;
+  display: inline-block;
   padding: 1rem;
   font-weight: bold;
-  transition: color 0.3s;
-}
-
-.navigation a:hover {
-  color: whitesmoke;
-  transform: scale(1.1);
 }
 
 .menuButton {
@@ -62,7 +73,7 @@
 .submenu {
   background-color: #006824;
   position: absolute;
-  top: 60px;
+  top: 50px;
   width: 190px;
   padding: 0;
   margin: 0;

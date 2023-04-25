@@ -45,6 +45,7 @@
 .socialMedia li {
   display: inline-block;
   margin-right: 20px;
+  transition: all 0.3s;
 }
 
 .pSocialMedia {

@@ -33,6 +33,7 @@ export default function HomePage() {
               sencilla. Además, contamos con un equipo de profesionales
               dispuesto a brindarle la asistencia que necesite.
             </p>
+            <br />
             <p className={styles.pContainer}>
               Nuestro objetivo fue simplificar y facilitar el hecho de poder
               presentar trámites, desarrollando así este espacio virtual para
@@ -49,7 +50,11 @@ export default function HomePage() {
       <div className={styles.programasContainer}>
         <img
           src="/programas-municipales-banner.jpg"
-          className={styles.logoProgramasContainer}
+          className={styles.logoProgramasContainer1}
+        />
+        <img
+          src="/banner-prog-municipal-locro.jpg"
+          className={styles.logoProgramasContainer2}
         />
       </div>
       <br />
