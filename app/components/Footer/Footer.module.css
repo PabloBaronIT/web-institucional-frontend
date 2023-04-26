@@ -1,5 +1,5 @@
 .footerContainer {
-  background-color: #006824;
+  background: linear-gradient(#006824, #6b942c);
   border-top: 2px solid #e0f6ff;
   display: flex;
   margin-top: auto;
