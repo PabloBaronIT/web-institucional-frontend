@@ -1,5 +1,6 @@
 "use client";
 import styles from "./HomePage.module.css";
+import IndividualIntervalsExample from "./components/Carousel/Carousel";
 import CoverVideo from "./components/CoverVideo/CoverVideo";
 
 export default function HomePage() {
@@ -46,7 +47,9 @@ export default function HomePage() {
       <br />
       {/* PROGRAMAS MUNICIPALES */}
       <h1 className={styles.h1HomePage}>PROGRAMAS MUNICIPALES</h1>
-      <div className={styles.muniProgrammer}></div>
+      <div className={styles.muniProgrammer}>
+        <IndividualIntervalsExample />
+      </div>
       <br />
       <br />
       <br />
