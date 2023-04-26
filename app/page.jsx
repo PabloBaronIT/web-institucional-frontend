@@ -1,7 +1,6 @@
 "use client";
 import styles from "./HomePage.module.css";
 import CoverVideo from "./components/CoverVideo/CoverVideo";
-import CarouselProgrammer from "./components/Carousel/Carousel";
 
 export default function HomePage() {
   return (
@@ -47,9 +46,7 @@ export default function HomePage() {
       <br />
       {/* PROGRAMAS MUNICIPALES */}
       <h1 className={styles.h1HomePage}>PROGRAMAS MUNICIPALES</h1>
-      <div className={styles.muniProgrammer}>
-        <CarouselProgrammer />
-      </div>
+      <div className={styles.muniProgrammer}></div>
       <br />
       <br />
       <br />
