@@ -40,7 +40,8 @@
 }
 
 .button {
-  border-radius: 30px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   background-color: #006824;
   border: none;
   color: #dff6ff;

@@ -26,6 +26,9 @@ export default function HomePage() {
               alt="Logo de Oficina Virtual"
               className={styles.logo}
             />
+            <button className={styles.oficinaVirtualButton}>
+              Ir a la <strong>Oficina Virtual</strong>
+            </button>
           </a>
           <div className={styles.logoDescription}>
             <p className={styles.pContainer}>

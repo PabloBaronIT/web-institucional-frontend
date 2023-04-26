@@ -100,6 +100,7 @@ export function Navigation() {
                   >
                     {links.map(({ label, route, submenu }) => (
                       <li
+                        className={styles.liNavBar}
                         key={route}
                         onMouseEnter={() => handleMouseEnter(route)}
                         onMouseLeave={() => handleMouseLeave(route)}
@@ -108,7 +109,7 @@ export function Navigation() {
                         {submenu && showSubmenu[route] && (
                           <ul className={styles.submenu}>
                             {submenu.map(({ label, route }) => (
-                              <li key={route}>
+                              <li className={styles.liSubMenu} key={route}>
                                 <Link
                                   href={route}
                                   className={styles.subMenuLink}

@@ -34,6 +34,10 @@ export default async function AreasPage() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }
