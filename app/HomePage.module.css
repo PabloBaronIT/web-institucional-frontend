@@ -5,15 +5,9 @@
   padding: 0;
 }
 
-.h1 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
 .h1HomePage {
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   color: #00230c;
   text-shadow: 1px 1px 3px #01233a;
 }
@@ -83,8 +77,7 @@
   margin-left: -170px;
   margin-top: 165px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 2);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Raleway, "Times New Roman", Times, serif;
   transition: background-color 0.6s ease, transform 0.6s ease;
 }
 
@@ -96,8 +89,7 @@
 .pContainer {
   font-size: 18px;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .programasContainer {
@@ -149,3 +141,9 @@
 }
 
 /* MAPA DE LA CIUDAD */
+
+.muniProgrammer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,12 +1,8 @@
 "use client";
 import styles from "./HomePage.module.css";
 import CoverVideo from "./components/CoverVideo/CoverVideo";
-import { Raleway } from "@next/font/google";
-import { ControlledCarousel } from "./components/Carousel/Carousel";
-const raleway = Raleway({
-  subsets: ["latin"],
-  weight: ["400", "800"],
-});
+import CarouselProgrammer from "./components/Carousel/Carousel";
+
 export default function HomePage() {
   return (
     <>
@@ -48,26 +44,15 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <br></br>
+      <br />
       {/* PROGRAMAS MUNICIPALES */}
       <h1 className={styles.h1HomePage}>PROGRAMAS MUNICIPALES</h1>
-      <div className={styles.programasContainer}>
-        <img
-          src="/programas-municipales-banner.jpg"
-          className={styles.logoProgramasContainer1}
-        />
-        <img
-          src="/banner-prog-municipal-locro.jpg"
-          className={styles.logoProgramasContainer2}
-        />
-        {/* <ControlledCarousel /> */}
+      <div className={styles.muniProgrammer}>
+        <CarouselProgrammer />
       </div>
       <br />
       <br />
-      {/* MAPA DE LA CIUDAD */}
-      {/* <h1 className={styles.h1HomePage}>Mapa de la ciudad</h1>
-      <img src="/mapa-sacanta.png" className={styles.mapSacanta} /> */}
-      {/* ESTADÍSTICAS */}
+      <br />
     </>
   );
 }

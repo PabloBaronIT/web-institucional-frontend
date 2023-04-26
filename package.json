@@ -9,10 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
+    "@mui/material-next": "^6.0.0-alpha.83",
+    "@mui/styled-engine-sc": "^5.12.0",
     "@next/font": "^13.3.1",
     "bootstrap": "^5.2.3",
     "botstrap": "^0.20.1",
@@ -25,7 +32,9 @@
     "react": "18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "18.2.0",
-    "react-map-gl": "^7.0.21"
+    "react-map-gl": "^7.0.21",
+    "react-swipeable-views": "^0.14.0",
+    "styled-components": "^5.3.10"
   },
   "devDependencies": {
     "@types/mapbox-gl": "^2.7.10"
