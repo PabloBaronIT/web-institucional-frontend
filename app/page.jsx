@@ -47,9 +47,9 @@ export default function HomePage() {
       <br />
       {/* PROGRAMAS MUNICIPALES */}
       <h1 className={styles.h1HomePage}>PROGRAMAS MUNICIPALES</h1>
-      <div className={styles.muniProgrammer}>
+      {/* <div className={styles.muniProgrammer}>
         <IndividualIntervalsExample />
-      </div>
+      </div> */}
       <br />
       <br />
       <br />

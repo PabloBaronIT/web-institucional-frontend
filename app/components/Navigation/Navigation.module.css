@@ -39,7 +39,7 @@
 
 .liNavBar:hover {
   transform: scale(1);
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .liSubMenu {
